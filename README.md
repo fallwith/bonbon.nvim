@@ -1,7 +1,5 @@
 # bonbon.nvim
 
-# bonbon.nvim
-
 A colorful but soothing theme for neovim.
 
 ## Screenshots
@@ -14,4 +12,4 @@ A colorful but soothing theme for neovim.
 
 To set your theme, put `require('bonbon').colorscheme()` in your config (or `colorscheme bonbon` in cmdline).
 
-To change from dark theme to light theme, use `vim.opt.background = 'light'` or `vim.opt.background = 'dark'`.
+To change from dark theme to light theme, use `vim.opt.background = 'light'` or `'dark'`.

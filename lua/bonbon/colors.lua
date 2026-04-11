@@ -6,7 +6,6 @@ local colors = {
 }
 
 function colors.generate()
-	colors.test = "#ff0054"
 	if vim.o.background == "dark" then
 		colors.bg = "#282526"
 
@@ -24,7 +23,7 @@ function colors.generate()
 		colors.search = "#a1abba"
 
 		colors.keyword = "#c6d757"
-		colors.statement = "#5dbb75"
+		colors.statement = "#64ca7e"
 		colors.tag = "#ffb857"
 
 		colors.success = "#9af13b"
