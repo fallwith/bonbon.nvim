@@ -6,6 +6,10 @@ A colorful but soothing theme for neovim.
 
 ![bonbon](screenshots/bonbon.png)
 
+## Installation
+
+Install using vimpack `vim.pack.add({"https://github.com/pankvitek/bonbon.nvim"})`.
+
 ## Usage
 
 To set your theme, put `require('bonbon').colorscheme()` in your config (or `colorscheme bonbon` in cmdline).
