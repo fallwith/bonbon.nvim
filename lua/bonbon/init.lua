@@ -175,6 +175,7 @@ local function set_groups()
 		["@constructor.lua"] = { fg = colors.fg },
 		["@keyword.operator"] = { fg = colors.operator, bold = true },
 		["@keyword.import"] = { fg = colors.statement, bold = true },
+		["@lsp.type.struct"] = { fg = colors.type },
 
 		TreesitterContext = { bg = colors.selection },
 
