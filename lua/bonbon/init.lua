@@ -165,7 +165,7 @@ local function set_groups()
 		["@punctuation"] = { fg = colors.structure },
 		["@lsp.type.punctuation"] = { fg = colors.structure },
 		["@lsp.mod.constructorOrDestructor"] = { fg = colors.func },
-		["@lsp.typemod.class.classScope"] = { fg = colors.func },
+		-- ["@lsp.typemod.class.classScope"] = { fg = colors.func },
 		["@type.builtin"] = { fg = colors.default_type },
 		["@lsp.type.keyword"] = { fg = "" },
 		["@lsp.type.namespace"] = { fg = colors.module },
