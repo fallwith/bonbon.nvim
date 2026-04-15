@@ -165,7 +165,6 @@ local function set_groups()
 		["@punctuation"] = { fg = colors.structure },
 		["@lsp.type.punctuation"] = { fg = colors.structure },
 		["@lsp.mod.constructorOrDestructor"] = { fg = colors.func },
-		-- ["@lsp.typemod.class.classScope"] = { fg = colors.func },
 		["@type.builtin"] = { fg = colors.default_type },
 		["@lsp.type.keyword"] = { fg = "" },
 		["@lsp.type.namespace"] = { fg = colors.module },
@@ -175,6 +174,7 @@ local function set_groups()
 		["@constructor.lua"] = { fg = colors.fg },
 		["@keyword.operator"] = { fg = colors.operator, bold = true },
 		["@keyword.import"] = { fg = colors.statement, bold = true },
+		["@keyword.exception"] = { fg = colors.control, bold = true },
 		["@lsp.type.struct"] = { fg = colors.type },
 
 		TreesitterContext = { bg = colors.selection },
