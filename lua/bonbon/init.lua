@@ -153,6 +153,7 @@ local function set_groups()
 		["@lsp.type.special"] = { fg = colors.default_type },
 		["@function.builtin.lua"] = { fg = colors.func },
 		["@lsp.type.builtin.lua"] = { fg = colors.func },
+		["@lsp.type.modifier"] = { fg = colors.statement },
 		["@keyword.repeat"] = { fg = colors.control, bold = true },
 		["@keyword.return"] = { fg = colors.ret, bold = true },
 		["@keyword.conditional"] = { fg = colors.control, bold = true },
